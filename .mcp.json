@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "social-media-agent": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "social-media-agent",
+        "python",
+        "-m",
+        "social_media_server"
+      ]
+    }
+  }
+}
